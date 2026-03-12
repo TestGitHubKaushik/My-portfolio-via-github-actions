@@ -22,6 +22,6 @@ jobs:
       - name: upload static files
         uses: actions/upload-pages-artifacts@v4
         with:
-          path: "."
+          path: "./"
       - name: deploy portfolio
         uses: actions/deploy-pages@v4
