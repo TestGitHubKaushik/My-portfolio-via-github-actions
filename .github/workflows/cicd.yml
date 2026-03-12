@@ -1,8 +1,7 @@
 name: myportfolio
 
 on:
-  push:
-    workflow_dispatch:
+  workflow_dispatch:
     
 permissions:
   pages: write
