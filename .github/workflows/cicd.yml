@@ -24,4 +24,5 @@ jobs:
         with:
           path: "./"
       - name: deploy portfolio
+        id: deployment
         uses: actions/deploy-pages@v4
